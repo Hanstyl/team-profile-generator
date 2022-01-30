@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanstyl/team-profile-generator.git"
+  },
+  "author": "Nathan Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanstyl/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Hanstyl/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
