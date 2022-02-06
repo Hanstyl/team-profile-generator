@@ -87,7 +87,7 @@ const promptManager = () => {
             const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.officeNumber);
             console.log(manager) // remove after test
 
-            team.push(manager);
+            teamRole.push(manager);
         })
 };
 
@@ -120,8 +120,8 @@ const promptEngineer = () => {
             const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
             console.log(engineer) // remove after test
 
-            team.push(engineer);
-            console.log(team); // Remove after test
+            teamRole.push(engineer);
+            console.log(teamRole); // Remove after test
         })
 };
 
@@ -155,7 +155,7 @@ const promptIntern = () => {
             const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.school);
             console.log(intern) // Remove after test
 
-            team.push(intern);
+            teamRole.push(intern);
         })
 };
 
