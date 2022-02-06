@@ -17,6 +17,20 @@ const teamRole = [];
 
 // initial prompt to create employee/role
 const initialSetupQA = () => {
+    console.log(`
+███████████████████████████
+███████▀▀▀       ▀▀▀███████
+████▀                 ▀████
+███                     ███
+██▌     Y to continue   ▐██
+██                       ██
+██                       ██
+██                       ██
+██                      ▐██
+███       n to stop     ███
+██▀                     ▀██
+███████████████████████████`);
+
     return inquirer.prompt([
         {
             type: 'confirm',
