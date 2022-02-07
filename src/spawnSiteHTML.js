@@ -21,7 +21,7 @@ const managerHtml = (manager) => {
 const internHtml = (intern) => {
     return `
             <div class= 'cell large-3'>
-                <div 'engineer-info'>
+                <div class='engineer-info'>
                    <h1 class='intern-color'>Intern</h1>
                    <h2>${intern.name}</h2>
                 </div>
