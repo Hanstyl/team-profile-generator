@@ -21,7 +21,9 @@
 
   Here is a short video showing how the app works. Link to full video below.
 
-  ![alt text](assets/images/screenshot.png)
+  https://user-images.githubusercontent.com/79775889/152724903-b7e0167f-f78d-444c-a8be-9f1a6f8e0249.mp4
+
+  Link To Full Walkthrough - https://watch.screencastify.com/v/xhYJqDfUF09aOHkZ3vr2
 
   ## Contributors
 
